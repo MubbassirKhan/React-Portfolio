@@ -254,7 +254,27 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+    case 'flask':
+      return django;
+    case 'github':
+      return git;
+    case 'postman':
+      return git;
+    case 'vs code':
+      return git;
+    case 'vercel':
+      return nextJS;
+    case 'render':
+      return nextJS;
+    case 'netlify':
+      return nextJS;
+    case 'railway':
+      return nextJS;
+    case 'supabase':
+      return firebase;
+    case 'mongodb atlas':
+      return mongoDB;
     default:
-      break;
+      return git;
   }
 }
